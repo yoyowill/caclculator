@@ -104,6 +104,15 @@
                                     <action selector="appendDigt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1X1-Hp-u2N"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USf-nW-nGH">
+                                <rect key="frame" x="219" y="347" width="51" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="⏎"/>
+                                <connections>
+                                    <action selector="appendDigt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYP-pT-2GV"/>
+                                    <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="vf2-69-1Ax"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
