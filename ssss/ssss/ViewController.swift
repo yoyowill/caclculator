@@ -29,11 +29,6 @@ class ViewController: UIViewController {
     @IBAction func enter() {
     }
 
-    @IBAction func enter() {
-    }
-    @IBAction func enter() {
-    }
-    @IBAction func enter() {
-    }
+
 }
 
